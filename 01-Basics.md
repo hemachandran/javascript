@@ -1,4 +1,4 @@
-# Js Basics
+# Js Fundamental Concepts
 The syntax of Js will be more similar to `Java`, `C`, and `C++`, but it has also been influenced by `Awk`, `Perl`, and `Python` progrmming languages
 JavaScript is **case-sensitive** and uses the **Unicode** character set. 
 
@@ -16,7 +16,7 @@ const month; |const month = "April"; | |
 ### Variable Types
 1. `Numbers` - Integer / Decimal
 2. `Strings` - Character / Word
-3. `Boolean` - True | False
+3. `Boolean` - True / False
 4. `Arrays` - Contains multiple values enclosed in square brackets and separated by commas
 5. `Objects` -  A structure of code that models a real-life object
 
@@ -24,3 +24,8 @@ const month; |const month = "April"; | |
 | **`var`**  | **`let`** | **`const`** |
 | :---: | :---: | :---: |
 | Declares a variable, optionally initializing it to a value | Declares a block-scoped, local variable, optionally initializing it to a value | Declares a block-scoped, read-only named constant |
+
+
+
+
+<h3 align="right"><a href="02-Number-Operators₹>Next: Numbers</a></h3>
