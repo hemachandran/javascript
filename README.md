@@ -22,5 +22,5 @@ JavaScript is a cross-platform, object-oriented scripting language used to make 
 - Editor: _VS Code, Notepad++_ 
 
 
-5
-<h3 align="right"><a href="01-Basics.md">Next: Js Basics</a></h3>
+
+<h3 align="right"><a href="01-Basics">Next: Js Basics</a></h3>
