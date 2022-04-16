@@ -22,10 +22,10 @@ const month; |const month = "April"; | |
 
 ### Constants in JavaScript
 | **`var`**  | **`let`** | **`const`** |
-| :---: | :---: | :---: |
+| --- | --- | --- |
 | Declares a variable, optionally initializing it to a value | Declares a block-scoped, local variable, optionally initializing it to a value | Declares a block-scoped, read-only named constant |
 
 
 
 
-<h3 align="right"><a href="02-Number-Operators₹>Next: Numbers</a></h3>
+<h3 align="right"><a href="02-Number-Operators">Next: Numbers</a></h3>
