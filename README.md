@@ -20,3 +20,7 @@ JavaScript is a cross-platform, object-oriented scripting language used to make 
 #### What you'll need to run Js?
 - Browser: _Chrome, Firefox, Edge, Safari, Opera_
 - Editor: _VS Code, Notepad++_ 
+
+
+5
+<h3 align="right"><a href="01-Basic.md">Next: Js Basics</a></h3>
