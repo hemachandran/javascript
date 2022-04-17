@@ -21,10 +21,29 @@ const month; |const month = "April"; | |
 5. `Objects` -  A structure of code that models a real-life object
 
 ### Constants in JavaScript
-| **`var`**  | **`let`** | **`const`** |
-| --- | --- | --- |
-| Declares a variable, optionally initializing it to a value | Declares a block-scoped, local variable, optionally initializing it to a value | Declares a block-scoped, read-only named constant |
+<table>
+<tbody>
+<tr align="center">
+<td><strong>var</strong></td>
+<td><strong>let</strong></td>
+<td><strong>const</strong></td>
+</tr>
+<tr>
+<td>
+Declares a variable, optionally initializing it to a value
+</td>
+<td>
+Declares a block-scoped, local variable, optionally initializing it to a value
+</td>
+<td>
+Declares a block-scoped, read-only named constant
+</td>
+</tr>
+</table>
 
-
-<h3 align="ledt"><a href="/">Prev: Intro</a></h3>
-<h3 align="right"><a href="02-Number-Operators">Next: Numbers</a></h3>
+<table>
+<tr>
+<td align="left"><h3><a href="/">Prev: Intro</a></h3></td>
+<td align="right"><h3><a href="02-Number-Operators">Next: Numbers</a></h3></td>
+</tr>
+</table>
