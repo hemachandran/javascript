@@ -7,11 +7,11 @@ For example, the word **`goal`** and **`Goal`** are not same representation
 ### Variables 
 A variable is a container for a value (or) stores a values
 
-| **Declaring**  | **Initializing** | **Updating** |
-| ------------- | ------------- | ------------- |
-| var goal; | var goal = "Js Developer"; | goal = "Master in Js"; |
-let age; | let age = 20; | age = 40; | |
-const month; |const month = "April"; | |
+| **Declaring**  | **Initializing** | **Updating**
+| ------------- | ------------- | -------------
+| var goal; | var goal = "Js Developer"; | goal = "Master in Js";
+let age; | let age = 20; | age = 40; |
+const month; |const month = "April"; |
 
 ### Variable Types
 1. `Numbers` - Integer / Decimal
@@ -39,9 +39,13 @@ Declares a block-scoped, local variable, optionally initializing it to a value
 Declares a block-scoped, read-only named constant
 </td>
 </tr>
+</tbody>
 </table>
 
+
+<table border="0">
 <tr>
 <td align="left"><h3><a href="/">Prev: Intro</a></h3></td>
 <td align="right"><h3><a href="02-Number-Operators">Next: Numbers</a></h3></td>
 </tr>
+</table>
