@@ -110,3 +110,7 @@ It can represent as a
     </tr>
   </tbody>
 </table>
+
+<h3 align="left"><a href="01.Basics">Prev: Js Basics</a></h3>
+<h3 align="right"><a href="03.Strings">Next: Strings</a></h3>
+
