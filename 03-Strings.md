@@ -33,12 +33,35 @@ console.log(greeting + ", " + name); // "Hello, Chris"
 ```javascript
 const greeting = "Hello";
 ```
-| Methods | Usage| Results |
-| --- | :--- | --- |
-| `length` | greeting.length| 4 |
-| `toLowerCase()` | greeting.toLowerCase() | hello |
-| `toUpperCase()` | greeting.toUpperCase() | HELLO |
-| `replace()` | greeting.replace('Hello','Hello World') | Hello World|
-
-### References
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Methods</strong></td>
+      <td><strong>Usage</strong></td>
+      <td><strong>Results</strong></td>
+    </tr>
+    <tr>
+      <td><code>length</code></td>
+      <td>greeting.length</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td><code>toLowerCase()</code></td>
+      <td>greeting.toLowerCase()</td>
+      <td>hello</td>
+    </tr>
+    <tr>
+      <td><code>toUpperCase()</code></td>
+      <td>greeting.toUpperCase()</td>
+      <td>HELLO</td>
+    </tr>
+    <tr>
+      <td><code>replace()</code></td>
+      <td>greeting.replace('Hello','Hello World')</td>
+      <td>Hello World</td>
+    </tr>
+   </tbody>
+  </table>
+    
+### Js String References
 JavaScript String Methods [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
