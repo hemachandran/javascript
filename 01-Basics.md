@@ -45,7 +45,7 @@ Declares a block-scoped, read-only named constant
 
 <table border="0">
 <tr>
-<td align="left"><h3><a href="/">Prev: Intro</a></h3></td>
+<td align="left"><h3><a href="/javascript">Prev: Intro</a></h3></td>
 <td align="right"><h3><a href="02-Number-Operators">Next: Numbers</a></h3></td>
 </tr>
 </table>
