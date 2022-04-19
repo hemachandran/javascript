@@ -1,6 +1,10 @@
 # Js Objects
-- It is used to store various keyed collections and more complex entities
-- Represents key-value pair structure
+- A JavaScript object literal is a comma-separated list of **`name-value`** pairs wrapped in curly braces. 
+
+### Things to Remember
+- A property name that has a space or a hyphen, or that starts with a number) can only be accessed using the square bracket notation
+- Each property name before colons is an identifier
+
 
 ### Create an Object
 
@@ -17,7 +21,7 @@ const person = {
 const person = {
   name: {
     firstName: 'Bob',
-    lastName: 'Sfffmith',
+    lastName: 'Smith',
   },
   age: 32
 };
@@ -31,4 +35,16 @@ person.name.firstName; //"Bob"
 ```javascript
 person.name.firstName; //Bob
 person['name']['firstName']: //Bob
+```
+
+### Update Object Properties
+```javascript
+person.age = 45;
+person.name.lastName = 'Robert';
+```
+
+### Adding New Object Property
+```javascript
+person['eyes'] = 'hazel';
+person.hairColor = 'brown';
 ```
