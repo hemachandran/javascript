@@ -7,12 +7,22 @@
 
 
 ### Create an Object
+1. By object literal
+2. By object instance
+3. By object constructor
 
 ```javascript
+//Object Literal
 const person = {
   name: ['Bob', 'Smith'],
   age: 32
 };
+
+//Object instance
+var emp = new Object();
+emp.id=101:
+emp.name="Ravi Malik";
+emp.salary=50000;
 ```
 
 ### Nested Objects
@@ -47,4 +57,8 @@ person.name.lastName = 'Robert';
 ```javascript
 person['eyes'] = 'hazel';
 person.hairColor = 'brown';
+```
+### Deleting Items
+```javascript
+delete person.age;
 ```
