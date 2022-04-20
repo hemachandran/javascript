@@ -11,6 +11,13 @@ function square(number) {
   return number * number;
 }
 ```
+### Calling the function
+- By using the function name and pass the parameter within enclosed parentheses
+
+```javascript
+square(5); //25
+square(3); //9
+```
 
 
 Function scope
