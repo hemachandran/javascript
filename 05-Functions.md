@@ -76,3 +76,5 @@ Uncaught RangeError: Maximum call stack size exceeded.
   - When it is invoked (called) from JavaScript code
   - Automatically (self invoked)
 
+<h3 align="left"><a href="04-Arrays">Prev: Arrays</a></h3>
+<h3 align="right"><a href="06-Objects">Next: Objects</a></h3>
