@@ -62,3 +62,20 @@ person.hairColor = 'brown';
 ```javascript
 delete person.age;
 ```
+### Object Methods
+```javascript
+const person = {
+  firstName: "John",
+  lastName : "Doe",
+  id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+// `this` refers to person object
+```
+#### `this`
+- It is a keyword. Cannot change the value
+- `this` refers to global objects in both inside and outside of a function
+- In object, this refers to object properties
