@@ -12,7 +12,7 @@
 3. By object constructor
 
 ```javascript
-//Object Literal
+//Object literal
 const person = {
   name: ['Bob', 'Smith'],
   age: 32
@@ -23,6 +23,14 @@ var emp = new Object();
 emp.id=101:
 emp.name="Ravi Malik";
 emp.salary=50000;
+
+//Object constructor
+let o = new Object()
+o.foo = 42
+
+console.log(o);
+// Object { foo: 42 }
+
 ```
 
 ### Nested Objects
