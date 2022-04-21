@@ -105,7 +105,7 @@ let b = 2;
 ```
 
 ### Reference
-JavaScript Function (Click here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions]
+JavaScript Function [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
 
 <h3 align="left"><a href="04-Arrays">Prev: Arrays</a></h3>
 <h3 align="right"><a href="06-Objects">Next: Objects</a></h3>
