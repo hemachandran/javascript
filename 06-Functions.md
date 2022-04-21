@@ -1,5 +1,6 @@
 # Js Functions
 - A function in JavaScript is similar to a procedure, a set of statements that performs a task
+- Reuse code: Define the code once, and use it many times.
 
 ### Defining functions
 - A function definition (also called a **function declaration**, or **function statement**) consists of the **`function`** keyword, followed by:
@@ -25,7 +26,6 @@ return - reversed keyword in js & something will be returned
 square(5); //25
 square(3); //9
 ```
-
 
 ### Function scope
 - Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function
@@ -69,3 +69,10 @@ countDown(3);
 
 Uncaught RangeError: Maximum call stack size exceeded.
 ```
+
+### Function Invocation
+- The code inside the function will execute when "something" invokes (calls) the function:
+  - When an event occurs (when a user clicks a button)
+  - When it is invoked (called) from JavaScript code
+  - Automatically (self invoked)
+
