@@ -1,5 +1,5 @@
 # Js Functions
-- A function in JavaScript is similar to a procedu, a set of statements that performs a task
+- A function in JavaScript is similar to a procedure, a set of statements that performs a task
 
 ### Defining functions
 - A function definition (also called a **function declaration**, or **function statement**) consists of the **`function`** keyword, followed by:
@@ -10,6 +10,13 @@
 function square(number) {
   return number * number;
 }
+
+/* Syntax
+function - reversed keyword in js
+square - name of the function
+(number) - parameter
+return - reversed keyword in js & something will be returned
+*/
 ```
 ### Calling the function
 - By using the function name and pass the parameter within enclosed parentheses
@@ -20,5 +27,45 @@ square(3); //9
 ```
 
 
-Function scope
-Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function
+### Function scope
+- Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function
+```javascript
+// The following variables are defined in the global scope
+var num1 = 20,
+    num2 = 3,
+    name = 'Peter';
+
+// This function is defined in the global scope
+function multiply() {
+  return num1 * num2;
+}
+
+multiply(); // Returns 60
+
+// A nested function example
+function getScore() {
+  var num1 = 2,
+      num2 = 3;
+
+  function add() {
+    return name + ' scored ' + (num1 + num2);
+  }
+
+  return add();
+}
+
+getScore(); // Returns "Peter scored 5"
+```
+
+### Recursion
+- A function can refer to and call itself. There are three ways for a function to refer to itself:
+```javascript
+function countDown(fromNumber) {
+    console.log(fromNumber);
+    countDown(fromNumber-1);
+}
+
+countDown(3);
+
+Uncaught RangeError: Maximum call stack size exceeded.
+```
