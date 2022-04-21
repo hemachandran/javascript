@@ -79,5 +79,33 @@ Uncaught RangeError: Maximum call stack size exceeded.
   - When it is invoked (called) from JavaScript code
   - Automatically (self invoked)
 
+### Arrow Functions (ES6)
+- An arrow function expression is a compact alternative to a traditional function expression
+
+```javascript
+// Traditional Anonymous Function
+function (a, b){
+  return a + b + 100;
+}
+
+// Arrow Function
+(a, b) => a + b + 100;
+
+// Traditional Anonymous Function (no arguments)
+let a = 4;
+let b = 2;
+function (){
+  return a + b + 100;
+}
+
+// Arrow Function (no arguments)
+let a = 4;
+let b = 2;
+() => a + b + 100;
+```
+
+### Reference
+JavaScript Function (Click here)[https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions]
+
 <h3 align="left"><a href="04-Arrays">Prev: Arrays</a></h3>
 <h3 align="right"><a href="06-Objects">Next: Objects</a></h3>
