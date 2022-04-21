@@ -30,6 +30,7 @@ square(3); //9
 ```
 ### Function scope
 - Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function
+
 ```javascript
 // The following variables are defined in the global scope
 var num1 = 20,
@@ -60,6 +61,7 @@ getScore(); // Returns "Peter scored 5"
 
 ### Recursion
 - A function can refer to and call itself. There are three ways for a function to refer to itself:
+
 ```javascript
 function countDown(fromNumber) {
     console.log(fromNumber);
