@@ -9,7 +9,6 @@
 ### Create an Object
 1. By object literal
 2. By object instance
-3. By object constructor
 
 ```javascript
 //Object literal
@@ -23,14 +22,6 @@ var emp = new Object();
 emp.id=101:
 emp.name="Ravi Malik";
 emp.salary=50000;
-
-//Object constructor
-let o = new Object()
-o.foo = 42
-
-console.log(o);
-// Object { foo: 42 }
-
 ```
 
 ### Nested Objects
