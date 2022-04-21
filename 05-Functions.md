@@ -7,6 +7,7 @@
   - The name of the function
   - A list of parameters to the function, enclosed in parentheses `()` and separated by commas `,`
   - The JavaScript statements that define the function, enclosed in curly brackets, {...}
+
 ```javascript
 function square(number) {
   return number * number;
@@ -18,6 +19,7 @@ square - name of the function
 (number) - parameter
 return - reversed keyword in js & something will be returned
 */
+
 ```
 ### Calling the function
 - By using the function name and pass the parameter within enclosed parentheses
@@ -26,7 +28,6 @@ return - reversed keyword in js & something will be returned
 square(5); //25
 square(3); //9
 ```
-
 ### Function scope
 - Variables defined inside a function cannot be accessed from anywhere outside the function, because the variable is defined only in the scope of the function
 ```javascript
