@@ -65,3 +65,6 @@ const greeting = "Hello";
     
 ### Js String References
 JavaScript String Methods [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
+
+<h3 align="left"><a href="02-Number-Operators">Prev: Number & Operators</a></h3>
+<h3 align="right"><a href="04-Arrays">Next: Arrays</a></h3>
