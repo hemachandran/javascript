@@ -8,7 +8,43 @@ When user interacts with HTML Elements and triggers an action is known as events
   5. A form is submitted.
   6. A video is played, paused and more...
 
-To do something in JavaScript for the above events we need the below things
-1. **Event handler** - This is a block of code (JavaScript Function) that we write to run, when the event fires
-2. **Registering** an **event handler**
-3. **Event Listeners*'are important5
+### Adding Event Listener
+```html
+<button>Change color</button>
+```
+
+```javascript
+//Get button element by document function - querySelector
+const btn = document.querySelector('button');
+
+const changeBackground = () => {
+document.body.style.backgroundColor = "blue";
+}
+
+//addEventListener - an event, which execute on click action to change colour
+
+btn.addEventListener('click', changeBackground );
+```
+- `focus`, `dblclick`, `mouseover`, `mouseout` few events can be used in `addEventListener`
+
+### Removing Event Listeners
+```javascript
+btn.removeEventListener('click', changeBackground);
+```
+
+### Multiple Events
+```javascript
+myElement.addEventListener('click', functionA);
+myElement.addEventListener('click', functionB);
+```
+
+### Inline Events
+```html
+<button onclick="bgChange()">Change</button>
+```
+
+### Event objects
+
+
+### References
+- Events [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Event)
