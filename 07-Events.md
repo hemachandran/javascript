@@ -47,4 +47,4 @@ myElement.addEventListener('click', functionB);
 - Events [Click here](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 
 <h3 align="left"><a href="06-Objects">Prev: Objects</a></h3>
-<h3 align="right"><a href="08-Callback">Next: Events</a></h3>
+<h3 align="right"><a href="08-Callback">Next: Callback</a></h3>
