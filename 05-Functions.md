@@ -81,6 +81,7 @@ Uncaught RangeError: Maximum call stack size exceeded.
 
 ### Arrow Functions (ES6)
 - An arrow function expression is a compact alternative to a traditional function expression
+- `this` keyword bind automatically, no need of tradition binding
 
 ```javascript
 // Traditional Anonymous Function
