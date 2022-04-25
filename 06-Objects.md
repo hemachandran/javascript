@@ -78,3 +78,8 @@ const person = {
 - It is a keyword. Cannot change the value
 - `this` refers to global objects in both inside and outside of a function
 - In object, this refers to object properties
+
+### References
+
+<h3 align="left"><a href="06-Objects">Prev: Objects</a></h3>
+<h3 align="right"><a href="07-Events">Next: Events</a></h3>
