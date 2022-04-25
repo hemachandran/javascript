@@ -40,7 +40,7 @@ myElement.addEventListener('click', functionB);
 
 ### Inline Events
 ```html
-<button onclick="bgChange()">Change</button>
+<button onclick="changeBackground()">Change</button>
 ```
 
 ### Event objects
