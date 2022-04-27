@@ -86,4 +86,4 @@ async function foo() {
 
 
 <h3 align="left"><a href="08-Callback">Prev: Callback</a></h3>
-<h3 align="right"><a href="09-Asynchronous">Next: Asynchronous</a></h3>
+<h3 align="right"><a href="10-Classes-and-Constructors">Next: Classes and Constructors</a></h3>
