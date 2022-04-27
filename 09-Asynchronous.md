@@ -83,3 +83,7 @@ async function foo() {
 
 ### References
 - Js Promise - [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+
+
+<h3 align="left"><a href="08-Callback">Prev: Callback</a></h3>
+<h3 align="right"><a href="09-Asynchronous">Next: Asynchronous</a></h3>
