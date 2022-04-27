@@ -35,3 +35,7 @@ printName();
 
 ### References
 - Js Closures - [Click here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
+
+<h3 align="left"><a href="07-Events">Prev: Events</a></h3>
+<h3 align="right"><a href="09-Asynchronous">Next: Asynchronous</a></h3>
